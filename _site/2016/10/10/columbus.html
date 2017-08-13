@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+  <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a class='link' href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='link sidebar-menu-item' href='/'>Home</a>
+      <a class='link sidebar-menu-item' href='/local'>Local</a>
+      <a class='link sidebar-menu-item' href='/demon'>Politics</a>
+      <a class='link sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='link sidebar-menu-item' href='/random'>Random</a>
+      <a class='link sidebar-menu-item' href='/submissions'>Submit</a>
+      <a class='link sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>School</a>
+  <h1 class='headline'> Football Captain, Hailed as Modern Columbus, Discovers Commons Two</h1>
+  <div class='author'>By
+  
+
+  
+  Dub Zuh
+
+  
+  </div>
+</header>
+
+  <section>
+    <p><img src="/images/2016/10/2016-10-10-columbus.jpg" alt="Great discovery." />
+<em>Great discovery.</em></p>
+
+<p><strong>Lexington, MA</strong> — Senior football captain “Big” Brett Brockson has been all the rage at Lexington High School this weekend after discovering a new part of campus. Everyone who is anyone has hailed Big Brett as a modern day Christopher Colombus figure. Though the details are still being uncovered, the Muskeeto has put together this timeline to help our readers understand this monumental moment.</p>
+
+<p><strong>11:16</strong> — <em>Big Brett proposes taking alternate route to Commons One in order to walk past the Senior Corner and throw rubber balls at freshman. Lackeys Chad Brody, Kellen Blufferlen and Blake Kyle readily agree and nod their heads vigorously.</em></p>
+
+<p><strong>11:18</strong> — <em>Big Brett trucks multiple underclassmen in the Quad. Upon juking one last narp, Brockson gets first sight of big blue doors leading to Commons Two. Brain Cells firing on all cylinders, Brockson makes the decision that will change the course of humanity and enters the eating area. Chad Brody, Kellen Blufferlen and Blake Kyle follow cautiously.</em></p>
+
+<p><strong>11:20</strong> — <em>Big Brett Brockson and his crew enter a new, undiscovered land. The natives are unlike anything he has seen before. They carry instruments around, and sit at tables silently doing homework. Brockson posts the scene on his story. Caption: “Found the Northwest Passage to India!!! I’m literally in China or something!!! 🔥 🔥 🔥</em>
+(Note: Brockson was not in fact in India. We now know Commons 2 is part of “North America”)</p>
+
+<p><strong>2:25</strong> — <em>At the last bell, Brockson was seen bringing boatloads of his fellow socialites to the new world, many of whom were infected with hand foot mouth from the locker rooms. The natives of Commons Two had never been exposed to the locker rooms, and thus had no immunity and will probably be wiped out by November.</em></p>
+
+<p>The Muskeeto staff will keep you updated on this monumental achievement. We would like to congratulate football star and noted socialite “Big” Brett Brockson on his Columbus moment and discovering this wholly new portion of the student body and campus.</p>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+  <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a class='link' href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='link sidebar-menu-item' href='/'>Home</a>
+      <a class='link sidebar-menu-item' href='/local'>Local</a>
+      <a class='link sidebar-menu-item' href='/demon'>Politics</a>
+      <a class='link sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='link sidebar-menu-item' href='/random'>Random</a>
+      <a class='link sidebar-menu-item' href='/submissions'>Submit</a>
+      <a class='link sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>School</a>
+  <h1 class='headline'> Looking Back on March</h1>
+  <div class='author'>By
+  
+
+  
+  Ouryay Ommay
+
+  
+  </div>
+</header>
+
+  <section>
+    <p><img src="/images/2016/04/2016-04-09-march.png" alt="An LHS student waves goodbye to the best four weeks of his school year." />
+<em>An LHS student waves goodbye to the best four weeks of his school year.</em></p>
+
+<p>LEXINGTON - With the beginning of April starting to sink in, many Lexington High School students are having difficulty coming to terms with the conclusion of their favorite month of the year.</p>
+
+<p>March is often looked to as a pleasant respite in an otherwise dreary school year. The holidays—St. Patrick’s Day on the 17th, the Ides of March on the 15th, even Daylight Savings on the 13th—highlight the abundance of opportunities for celebration. Additionally, each and every one of the holidays are minor enough for school to still take place. The consistency of a 6.6 hour school day, every day of the week, every week, puts students and faculty alike at ease throughout the month.</p>
+
+<p>In fact, recognizing this need for stability, LHS administration moved to end delayed openings for MCAS-takers this year. Unfortunately, Easter—a holiday which usually falls in April—lodged itself into the end of March, providing students with the only half-day and day-off from school in the month and tarnishing an otherwise clean record.</p>
+
+<p>Another compelling feature of March is the redeeming third quarter, which runs throughout the month. The extra assignments assigned during this generally busy period provide a chance for eager students to raise their grades. Teachers acknowledge that it is often the most academically stimulating quarter and collaborate to make sure the LHS population can reap the benefits of rebounding from failure.</p>
+
+<p>Students voiced their concerns for the oncoming spring months, mainly uneasy about the warmer temperatures and the resulting consequences, including sunshine, flowers, birds, and greenery.</p>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

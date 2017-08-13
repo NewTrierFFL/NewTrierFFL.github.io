@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+  <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a class='link' href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='link sidebar-menu-item' href='/'>Home</a>
+      <a class='link sidebar-menu-item' href='/local'>Local</a>
+      <a class='link sidebar-menu-item' href='/demon'>Politics</a>
+      <a class='link sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='link sidebar-menu-item' href='/random'>Random</a>
+      <a class='link sidebar-menu-item' href='/submissions'>Submit</a>
+      <a class='link sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>School</a>
+  <h1 class='headline'> Students Praise Physics Grading Scale, Credit Great Leader</h1>
+  <div class='author'>By
+  
+
+  
+  National Herald of The People's Republic
+
+  
+  </div>
+</header>
+
+  <section>
+    <p><img src="/images/2016/02/2016-02-06-physics.jpg" alt="Hardworking students are happy students." />
+<em>Hardworking students are happy students.</em></p>
+
+<p>Singing the praises of Our Great Leader, the exceedingly well fed general populace at the People’s Republic of Lexington High School told state reporters on Thursday that they were overwhelmingly thankful for the implementation of the new AP Physics 1 grading system.</p>
+
+<p>The revolutionary state grading system has truly surpassed all its already high expectations of success, allowing all students a more equal chance of working together to fail the course. Its resounding triumph over the enemies and critics of the state is evidenced by visibly happy students, an absence of stress, and the thriving proletariat.</p>
+
+<p>Even greater success is found in the important life lessons and state doctrine that AP Physics is imbuing in our young comrades: “Just like we learned in physics, sometimes the use of force is needed to get things in motion,” stated one particularly enthusiastic student.</p>
+
+<p>The grading system has truly exceeded all its already high expectations of success. Our Benevolent Leader was fair and just in exiling the families of those who spoke out against any supposed “faults” and “difficulty” of the new system.</p>
+
+<p>As always, cheering masses credited Our Wise Leader for the enormous accomplishment, as well as for an always abundant harvest and the continued prosperity of the Republic.</p>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+  <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a class='link' href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='link sidebar-menu-item' href='/'>Home</a>
+      <a class='link sidebar-menu-item' href='/local'>Local</a>
+      <a class='link sidebar-menu-item' href='/demon'>Politics</a>
+      <a class='link sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='link sidebar-menu-item' href='/random'>Random</a>
+      <a class='link sidebar-menu-item' href='/submissions'>Submit</a>
+      <a class='link sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>About</a>
+  <h1 class='headline'> Writing for the Muskeeto</h1>
+  <div class='author'>By
+  
+
+  
+  Muskeeto Staff
+
+  
+  </div>
+</header>
+
+  <section>
+    <p>Interested in submitting writing, headlines, or have another idea to pitch to the Muskeeto?</p>
+
+<p>Swing by a meeting of the Muskeeto. The Muskeeto meets on most <strong>Mondays in room 240, from 2:30 to 3:00</strong> after school. <a href="https://www.facebook.com/groups/muskeeto/">Join our Facebook group for updates!</a> We have snacks too.</p>
+
+<p>You can also submit to the Muskeeto  <a href="https://docs.google.com/forms/d/1jvtsKfCov4TCWOd8FwLNLIH6ugx6xZ8PQWSJk3TiqiY/viewform">here</a>.</p>
+
+<h1 id="guidelines-for-content-submissions">Guidelines for Content Submissions</h1>
+
+<p>The Muskeeto is all about good content. Unfortunately, that means there is no guarantee that we will publish your work, but most submissions have been accepted and published. Here are a few guidelines and suggestions:</p>
+
+<ul>
+  <li>Make sure your writing is high qual (take a look at the sources below or read the Muskeeto for examples)</li>
+  <li>No targeting students / faculty</li>
+  <li>No using real names (without explicit consent)</li>
+  <li>No plagarism trash</li>
+  <li>dont be a dick and stuff</li>
+  <li>etc you get the idea whatever</li>
+</ul>
+
+<p>Here are a couple of our favorite Muskeeto knockoffs:</p>
+
+<ul>
+  <li><a href="http://www.theonion.com/">The Onion</a></li>
+  <li><a href="http://www.clickhole.com/">Clickhole</a></li>
+  <li><a href="http://thenoser.com/">The Brown Noser</a></li>
+  <li><a href="http://www.thebeaverton.com/">The Beaverton</a></li>
+  <li><a href="https://thepagorilla.wordpress.com/">The Gorilla</a></li>
+  <li><a href="http://reductress.com/">Reductress</a></li>
+</ul>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
