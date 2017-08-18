@@ -3,9 +3,9 @@ layout: article
 title: Guilty Student Finally Comes Clean about Printing 11th Page
 tags: [School, Library, Crime]
 authors: [Wes Tarning]
-image: /images/2017/08/2017-08-18-stealing-paper.jpg
+image: /images/2017/08/2017-08-17-stealing-paper.jpg
 ---
-![An LHS student learns the hard way about the consequences of taking on the library.](/images/2017/08/2017-08-18-stealing-paper.jpg)
+![An LHS student learns the hard way about the consequences of taking on the library.](/images/2017/08/2017-08-17-stealing-paper.jpg)
 *An LHS student learns the hard way about the consequences of taking on the library.*
 
 *“I just couldn't take it anymore. It finally dawned on me that I was a fugitive of the law and I had to turn myself in."*
