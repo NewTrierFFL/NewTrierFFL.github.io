@@ -12,7 +12,7 @@ image: /images/2017/08/2017-08-17-stealing-paper.jpg
 
 **LEXINGTON** --  After being unable to eat or sleep for the last two days, 10th grader Trevor Schmidt, riddled with guilt, finally confessed to being the one that printed that 11th page without paying on Tuesday morning. As vigilance in the school library was heightened to levels only comparable to that of Guantanamo, he knew he had to give himself up. 
 
-Late yesterday afternoon at around 2:30pm, Trevor made the slow walk from the science building, through the quad, and to the dean's office in the main building to turn himself in, doing his best to shield his face from questioning students.
+Late yesterday afternoon at around 2:45pm, Trevor made the slow walk from the science building, through the quad, and to the dean's office in the main building to turn himself in, doing his best to shield his face from questioning students.
 
 When asked about his mindset before the event went down, Trevor responded candidly, "I just needed to print out my history essay. When I realized I didn't have the 10 cents I needed to pay for the last page, my mind just went off on its own, plotting how to get that 11th page. I really thought I'd get away with it. I even used a different computer for the final page." 
 
