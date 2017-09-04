@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-{% if post.tags contains 'Demon' or post.tags contains 'Politics' %}
+{% if post.tags contains 'Politics' or post.tags contains 'Demon' %}
 <article>
   {% include preview.html post=post %}
 </article>
