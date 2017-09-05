@@ -1,5 +1,5 @@
 <header>
-    <a href='#' class='tag' rel='tag' style="color:#FFFFFF;">
+    <a href='#' class='tag' rel='tag' style="color:#2677BA;">
     {% for tag in include.tags %}
         
     {% if forloop.length > 1 and forloop.last %}
@@ -9,7 +9,7 @@
     {% endfor %}
     </a>
   <h1 class='headline' style="color:#FFFFFF;"> {{ include.title }}</h1>
-  <div class='author'>By
+  <div class='author' style="color:#2677BA;">By
   {% for author in include.authors %}
 
   {% if forloop.length > 1 and forloop.last %}
