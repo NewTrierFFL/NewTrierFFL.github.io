@@ -40,10 +40,10 @@ a {
       margin-bottom: 20px; } }
   .logo .title {
     font-size: 43px;
-    font-family: "Libre Caslon Display"; }
+    font-family: "Crimson Text"; }
   .logo .tagline {
     font-size: 14px;
-    font-family: "courier-prime"; }
+    font-family: "Crimson Text"; }
 
 #footer-img {
   height: 120px;
@@ -54,7 +54,7 @@ footer {
 
 #sidebar {
   position: fixed;
-  font-family: "courier-prime";
+  font-family: "Crimson Text";
   top: 0;
   left: 0;
   width: 160px;
@@ -120,7 +120,7 @@ article {
     text-decoration: none; }
     article header .tag {
       font-size: 16px;
-      font-family: "courier-prime";
+      font-family: "Crimson Text";
       text-decoration: none;
       color: #444;
       margin-bottom: 0.7em;
@@ -132,7 +132,7 @@ article {
       color: #222;
       margin-top: 0;
       margin-bottom: 0.5em;
-      font-family: "Archivo Narrow";
+      font-family: "Crimson Text";
       line-height: 1.4em;
       padding-bottom: 0.4em;
       border-bottom: 0.07em solid #666; }
@@ -163,4 +163,4 @@ article {
     text-align: center; }
 
 h1 {
-  font-family: "Archivo Narrow";}
+  font-family: "Crimson Text";}
