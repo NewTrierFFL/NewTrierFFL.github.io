@@ -1,16 +1,10 @@
 <a href='{{ include.post.url }}'>
     <header>
-      <h1 class='headline'>
+      <h1 class='headline' style="color:#52B22C;">
+        
         {{ include.post.title }}
-        {% if include.post.tags contains 'Video' %}
-        (Video)
-        {% endif %}
-
-        {% if include.post.image %}
-        <div class='preview-image-wrapper' style='background-image: url({{ include.post.image }});background-size: cover;background-position:center;'>
-          <!-- <img class='preview-image' src="{{ include.post.image }}" /> -->
-        </div>
-        {% endif %}
+        <br>
+        <br>
       </h1>
   </header>
 </a>
