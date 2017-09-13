@@ -117,7 +117,8 @@ article {
   article header {
     max-width: 38em;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 15px;
+    text-align: right;
     text-decoration: none; }
     article header .tag {
       font-size: 16px;
