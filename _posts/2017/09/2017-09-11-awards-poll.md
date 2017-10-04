@@ -5,12 +5,5 @@ tags: [Poll]
 authors: [NTFFL Commissioners]
 ---
 
-Email Nat your week 2 awards suggestions, at [nat.swinger@gmail.com](nat.swinger@gmail.com).
-
-<br>
-<br>
-
-The email should contain any suggestions you have for possible awards, and their recipients.
-<br>
-Submit this email between Monday night (9/18) and Tuesday morning (9/19)
+Submit any suggestions for awards by clicking this link: [Awards](https://docs.google.com/forms/d/1EUMPdOipu6LEpLof80k9AqpzlbYDWgGVUO_RhgB_akU/viewform)
 

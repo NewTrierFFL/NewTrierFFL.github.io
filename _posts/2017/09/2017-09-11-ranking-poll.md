@@ -5,11 +5,4 @@ tags: [Poll]
 authors: [NTFFL Commissioners]
 ---
 
-Email Nat your week 2 power rankings, at [nat.swinger@gmail.com](nat.swinger@gmail.com).
-
-<br>
-<br>
-
-The email should contain all teams ranked 1-12 from best to worst, using the owner's first name. No explanation needed.
-<br>
-Submit this email between Monday night (9/18) and Tuesday morning (9/19)
+Enter your Power Rankings by click this link: [Power Rankings](https://docs.google.com/forms/d/1hdVtegEH1bxGf2cdy0mSbMNVzyNhMh7o92dWZqhSEKY/viewform)
