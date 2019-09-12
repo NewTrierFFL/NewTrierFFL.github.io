@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Week 1 Power Rankings
+title: Week 1 Power Rankings (2018)
 tags: [Rankings]
 authors: [Jack Miller, Nat Swinger]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Playoffs Week 1 Power Rankings
+title: Playoffs Week 1 Power Rankings (2018)
 tags: [Rankings]
 authors: [Jack Miller]
 ---

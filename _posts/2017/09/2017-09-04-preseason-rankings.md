@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Preseason Power Rankings
+title: Preseason Power Rankings (2018)
 tags: [Rankings]
 authors: [Jack Miller]
 ---

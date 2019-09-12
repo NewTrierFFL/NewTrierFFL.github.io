@@ -1,6 +1,6 @@
 ---
 layout: article
-title: NTFFL Week 4 Newsletter
+title: NTFFL Week 4 Newsletter (2018)
 tags: [Rankings]
 authors: [Ezra Wallach and Jack Miller]
 ---

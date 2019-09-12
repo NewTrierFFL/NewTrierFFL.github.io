@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Week 2 Power Rankings
+title: Week 2 Power Rankings (2018)
 tags: [Rankings]
 authors: [Jack Miller, Nat Swinger]
 ---

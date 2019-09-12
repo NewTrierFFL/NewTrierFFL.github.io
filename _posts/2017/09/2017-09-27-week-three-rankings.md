@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Week 3 Power Rankings
+title: Week 3 Power Rankings (2018)
 tags: [Rankings]
 authors: [Nat Swinger, Nicholas Kebo, Marc Mestanas, Andrew Kost, Jack Miller]
 ---
