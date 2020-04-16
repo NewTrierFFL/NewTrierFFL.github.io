@@ -5,22 +5,5 @@ layout: default
   {% include title.html title=page.title authors=page.authors tags=page.tags %}
   <section>
     {{ content }}
-    
-    Quagga.init({
-      inputStream : {
-        name : "Live",
-        type : "LiveStream",
-        target: document.querySelector('#yourElement')    // Or '#yourElement' (optional)
-      },
-      decoder : {
-        readers : ["code_128_reader"]
-      }
-    }, function(err) {
-        if (err) {
-            console.log(err);
-            return
-        }
-        console.log("Initialization finished. Ready to start");
-    });
   </section>
 </article>
